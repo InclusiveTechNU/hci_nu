@@ -2,7 +2,7 @@
   "name": "hci_nu",
   "version": "0.1.0",
   "scripts": {
-    "publish": "git commit -am \"publishing new shortcuts\" && git push && node src/build.js && echo 'Published!\n'"
+    "publish": "(git commit -am \"publishing new shortcuts\" || true) && git push && node src/build.js && echo 'Published!\n'"
   },
   "repository": {
     "type": "git",
