@@ -14,5 +14,21 @@
     {
         "path": "music",
         "url": "http://music.cs.northwestern.edu"
+    },
+    {
+        "path": "delta",
+        "url": "http://delta.northwestern.edu"
+    },
+    {
+        "path": "dtr",
+        "url": "http://dtr.northwestern.edu"
+    },
+    {
+        "path": "collablab",
+        "url": "http://collablab.northwestern.edu"
+    },
+    {
+        "path": "tiilt",
+        "url": "http://tiilt.northwestern.edu"
     }
 ]
