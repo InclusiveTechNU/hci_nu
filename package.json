@@ -2,7 +2,7 @@
   "name": "hci_nu",
   "version": "0.1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "publish": "node src/build.js && echo 'Published!\n'"
   },
   "repository": {
     "type": "git",
