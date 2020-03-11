@@ -32,5 +32,8 @@ shortcuts.forEach((shortcut) => {
     fs.writeFileSync(newPathFile, processedPage);
 });
 
+const cnamePath = path.resolve(buildDirPath, './CNAME');
+fs.writeFileSync(cnamePath, "hci.nu");
+
 // Publish to Github pages
 ghPages.publish(buildDirPath);
