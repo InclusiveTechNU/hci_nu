@@ -9,6 +9,10 @@
     },
     {
         "path": "v11",
-        "url": "https://v11.dev/"
+        "url": "https://v11.dev"
+    },
+    {
+        "path": "music",
+        "url": "http://music.cs.northwestern.edu"
     }
 ]
