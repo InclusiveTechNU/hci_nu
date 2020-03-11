@@ -1,0 +1,19 @@
+{
+  "name": "hci_nu",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InclusiveTechNU/hci_nu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/InclusiveTechNU/hci_nu/issues"
+  },
+  "homepage": "https://github.com/InclusiveTechNU/hci_nu#readme",
+  "devDependencies": {
+    "ejs": "^3.0.1",
+    "gh-pages": "^2.2.0"
+  }
+}
