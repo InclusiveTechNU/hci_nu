@@ -34,5 +34,9 @@
     {
         "path": "tsb",
         "url": "http://tsb.northwestern.edu"
-    }
+    },
+    {
+        "path": "about",
+        "url": "http://hci.northwestern.edu"
+    },
 ]
