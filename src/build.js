@@ -1,7 +1,6 @@
 const path = require('path');
 const fs = require('fs');
 const ejs = require('ejs');
-const ghPages = require('gh-pages');
 const shortcuts = require('./shortcuts.json');
 
 const sourceDirPath = path.dirname(__filename);
@@ -34,6 +33,3 @@ shortcuts.forEach((shortcut) => {
 
 const cnamePath = path.resolve(buildDirPath, './CNAME');
 fs.writeFileSync(cnamePath, "hci.nu");
-
-// Publish to Github pages
-ghPages.publish(buildDirPath);
