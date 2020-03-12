@@ -46,5 +46,9 @@
     {
         "path": "design",
         "url": "https://design.northwestern.edu"
+    },
+    {
+        "path": "shortcuts",
+        "url": "https://github.com/InclusiveTechNU/hci_nu/blob/master/src/shortcuts.json"
     }
 ]
