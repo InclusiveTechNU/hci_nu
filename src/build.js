@@ -27,7 +27,7 @@ shortcuts.forEach((shortcut) => {
 
     const newDirPath = path.resolve(buildDirPath, `./${shortenerPath}`);
     const newPathFile = path.resolve(newDirPath, './index.html');
-    fs.mkdirSync(newDirPath);
+    fs.mkdirSync(newDirPath, { recursive: true });
     fs.writeFileSync(newPathFile, processedPage);
 });
 
