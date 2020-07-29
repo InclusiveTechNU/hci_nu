@@ -40,3 +40,9 @@ ncp("papers", "./build/papers", function (err) {
       return console.error(err);
     }
 });
+
+ncp("src/index.html", "./build/index.html", function (err) {
+    if (err) {
+      return console.error(err);
+    }
+});
