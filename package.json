@@ -15,5 +15,8 @@
   "devDependencies": {
     "ejs": "^3.0.1",
     "gh-pages": "^2.2.0"
+  },
+  "dependencies": {
+    "ncp": "^2.0.0"
   }
 }

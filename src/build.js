@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const ejs = require('ejs');
+const ncp = require('ncp').ncp;
 const shortcuts = require('./shortcuts.json');
 
 const sourceDirPath = path.dirname(__filename);
@@ -33,3 +34,9 @@ shortcuts.forEach((shortcut) => {
 
 const cnamePath = path.resolve(buildDirPath, './CNAME');
 fs.writeFileSync(cnamePath, "hci.nu");
+
+ncp("papers", "./build/papers", function (err) {
+    if (err) {
+      return console.error(err);
+    }
+});
